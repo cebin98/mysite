@@ -1,0 +1,38 @@
+@장고 공식사이트
+  - https://www.djangoproject.com/
+  - https://www.python.org/downloads/
+  - https://www.github
+
+
+1. 파이썬설치
+  - 설치시에 파이썬 패스를 추가하는 부분에 대하여 Checking
+  - cmd>python명령으로 설치를 확인
+
+2. 가상화 환경설정
+  - pip install virtualenv
+  - ./Script/activate.bat을 수행함
+   => 프롬프트에 가상화정보를 확인함
+   => 서버별로 위치가 다르니 장고 프로젝트 사이트를 참고함
+
+3.  장고 설치 및 프로젝트 및 앱 생성
+  - pip install django
+   => py -m django --version
+  - django-admin startproject mysite
+  - py manage.py startapp JobSearch
+
+4. 서버기동
+  - py manage.py runserver
+   => http://localhost:8000으로 확인
+
+5. git 설치 및 gihub 활용
+  - git 설치 및 git 콘솔실행
+   => C:\Program Files\Git\git-bash.exe을 수행
+     > cd ~
+     > cd mywork\mysite
+     > git init
+     >
+
+     
+
+
+     
